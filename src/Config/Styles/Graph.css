@@ -1,0 +1,17 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.graph{
+    width: 37rem;
+    height: 25rem;
+    margin: 0 auto;
+}
+
+.graphstyle{
+    height: 100%;
+    width: 100%;
+}
+
