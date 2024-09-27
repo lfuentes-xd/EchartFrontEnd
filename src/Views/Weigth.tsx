@@ -27,54 +27,6 @@ export const Weigth = () => {
         fetchData();
     }, []);
 
-    // const getOption = () => {
-    //     return {
-    //         tooltip: {
-    //             position: 'top'
-    //         },
-    //         grid: {
-    //             height: '50%',
-    //             top: '10%'
-    //         },
-    //         xAxis: {
-    //             type: 'category',
-    //             data: chartData.map(item => item.peso),
-    //             splitArea: {
-    //                 show: true
-    //             }
-    //         },
-    //         yAxis: {
-    //             type: 'category',
-    //             data: chartData.map(item => item.altura),
-    //             splitArea: {
-    //                 show: true
-    //             }
-    //         },
-    //         visualMap: {
-    //             min: 0,
-    //             max: 50,
-    //             calculable: true,
-    //             orient: 'horizontal',
-    //             left: 'center',
-    //             bottom: '15%'
-    //         },
-    //         series: [{
-    //             name: 'pesos',
-    //             type: 'heatmap',
-    //             data: chartData.map(item => [item.peso, item.altura, item.biceps]), // [peso, altura, bíceps]
-    //             label: {
-    //                 show: true
-    //             },
-    //             emphasis: {
-    //                 itemStyle: {
-    //                     shadowBlur: 10,
-    //                     shadowColor: 'rgba(0, 0, 0, 0.5)'
-    //                 }
-    //             }
-    //         }]
-    //     }
-    // };
-
     const getOption = () => {
         return {
             tooltip: {
