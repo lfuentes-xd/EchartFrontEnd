@@ -7,7 +7,7 @@ import { Api } from '../../src/Config/API/Api';
 //libraries
 import ReactECharts from 'echarts-for-react';
 
-//Styles.
+//Styles.   
 import '../Config/Styles/index'
 
 export const NormalWeight = () => {

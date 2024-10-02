@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from '../../layout/Layout'
-import {Apartments, Graph, Weigth, NormalWeight} from '../../Views/index'
+import {Apartments, Graph, Weigth, NormalWeight, Graphics} from '../../Views/index'
 
 
 const Router = () => {
@@ -12,6 +12,7 @@ const Router = () => {
                     <Route path='/NormalWeight' element={<NormalWeight />} />
                     <Route path='/Graph' element={<Graph />} />
                     <Route path='/Apartments' element={<Apartments />} />
+                    <Route path='/Graphics' element={<Graphics />} />
                 </Route>
             </Routes>
         </BrowserRouter>
