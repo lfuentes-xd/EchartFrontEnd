@@ -13,6 +13,7 @@ export enum Sexo {
 }
 
 
+
 export interface ApartmentsInfo {
     precio:         number;
     mt2:            number;
@@ -36,4 +37,22 @@ export enum Administracion {
 export enum Ubicacion {
     Norte = "norte",
     Occidente = "occidente",
+}
+
+interface WeigthData {
+    peso_max: number;
+    peso_min: number;
+    peso_promedio: number;
+    peso_total: number;
+    total: number;
+}
+
+export interface ApiResponse {
+    Hombres: WeigthData;
+    Mujeres: WeigthData;
+}
+
+export interface Biceps{
+    biceps: number,
+    peso: number
 }

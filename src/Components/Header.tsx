@@ -9,10 +9,8 @@ export const Header = () => {
                     <div className="container">
                         <nav className="navb">
                             <Link to="/Graph" className="text">Grafica de ejemplo</Link>
-                            <Link to="/" className="text">Pesos de calor</Link>
-                            <Link to="/NormalWeight" className="text">Peso normal</Link>
                             <Link to="/Apartments" className="text">Apartamentos</Link>
-                            <Link to="/Graphics" className="text">Graficas</Link>
+                            <Link to="/Weights" className="text"> Analisis de Pesos</Link>
                         </nav>
                     </div>
                 </div>

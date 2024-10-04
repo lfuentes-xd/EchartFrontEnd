@@ -1,0 +1,6 @@
+export * from './BicepsWeight'
+export * from './Graphics'
+export * from './NormalWeight'
+export * from './PieWeigth'
+export * from './Weigth'	
+export * from './WeigthAnalysis'

@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
 //resources
-import { DataInfo } from "../Config/interfaces/interface";
-import { Api } from '../../src/Config/API/Api';
+import { DataInfo } from "../../Config/interfaces/interface";
+import { Api } from '../../Config/API/Api';
 
 //libraries
 import ReactECharts from 'echarts-for-react';
 
 //Styles.   
-import '../Config/Styles/index'
+import '../../Config/Styles/index'
 
 export const NormalWeight = () => {
     const [chartData, setChartData] = useState<DataInfo[]>([]);
@@ -46,8 +46,8 @@ export const NormalWeight = () => {
     
     return (
         <div className='graph'>
-            <h1>Gráfico de Peso</h1>
-            <ReactECharts option={getOption()} className='graphstyle' />
+            <h1>Relacion Peso altura</h1>
+            <ReactECharts option={getOption()}  />
         </div>
     );
 }
